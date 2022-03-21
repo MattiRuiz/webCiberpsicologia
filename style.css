@@ -1,0 +1,425 @@
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #212425;
+    color: #fff;
+}
+
+body, html {
+    height: 100%
+}
+
+a {
+    color: #fff;
+}
+
+a:hover {
+    color: #fbbe03;
+    text-decoration: none;
+}
+
+.fondo {
+    background-image: url("img/Portada_Index.png");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.barra {
+    top: 0;
+    left: 0;
+}
+
+.btn-secondary:hover {
+    background-color: #252525;
+    border-color: #252525;
+}
+
+.btn-secondary:focus, .btn-secondary:active {
+    background-color: #252525!important;
+    box-shadow: none!important;
+    border-color: #252525!important
+}
+
+.btn-dark {
+    background-color: #1d1d1d;
+    border-color: #1d1d1d;
+}
+
+.btn-dark:hover {
+    background-color: #252525;
+    border-color: #252525;
+}
+
+.btn-dark:focus, .btn-dark:active {
+    background-color: #252525!important;
+    box-shadow: none!important;
+    border-color: #252525!important
+}
+
+.dropdown-menu {
+    color: #fff;
+    background-color: #1d1d1d;
+    border-color: #1d1d1d; 
+    right: 0;
+    left: inherit;
+    border-radius: 0;
+}
+
+.dropdown-item {
+    color: #fff;
+    padding: .50rem 1.5rem;
+    font-size: 15px;
+}
+
+.dropdown-item:hover {
+    color: #fff;
+    background-color: #252525;
+}
+
+.navbar-toggler {
+    border: none;
+    font-size: 22px;
+}
+
+button:focus {
+    outline: none;
+    box-shadow: none!important;
+}
+
+.navbar-toggler-icon {
+    color: #fff;
+}
+
+.gradient-top {
+    background: rgb(33,36,37);
+background: linear-gradient(180deg, rgba(33,36,37,1) 0%, rgba(33,36,37,0) 100%);
+    height: 100px;
+}
+
+.gradient-bot {
+    background: rgb(33,36,37);
+background: linear-gradient(0deg, rgba(33,36,37,1) 0%, rgba(33,36,37,0.8) 30%, rgba(33,36,37,0) 100%);
+}
+
+footer i {
+    padding: 0 15px 10px;
+}
+
+.taco {
+    height: 120px;
+}
+
+.taconota {
+    height: 60px;
+}
+
+.btn-link {
+    color: #fff;
+    font-size: 14px;
+}
+
+.btn-link:hover {
+    color: #fbbe03;
+    text-decoration: none;
+}
+
+.btn-link:focus, .btn-link:active {
+    text-decoration: none;
+}
+
+.card-header {
+    background-color: #1d1d1d;
+    border: none;
+}
+
+.card-header:first-child {
+    border-radius: 0;
+}
+
+.card {
+    border: none;
+}
+
+.card-body {
+    background-color: #252525;
+    padding: .5rem 1.25rem;
+}
+
+.list-group-item  {
+    background-color: #252525;
+    color: #fff;
+    font-size: 14px;
+}
+
+.list-group-item:hover  {
+    background-color: #252525;
+    color: #fff;
+}
+
+.list-group-item:focus, .list-group-item:active {
+    background-color: #252525;
+    color: #fbbe03;
+}
+
+.display-4 {
+    font-size: 35px;
+    font-weight: normal;
+}
+
+.navbar {
+    z-index: 99;
+}
+
+.fixed-bottom {
+    z-index: 1
+}
+
+.dropdown-toggle::before {
+    display: inline-block;
+    margin-left: .255em;
+    vertical-align: .255em;
+    content: "";
+    border-top: .3em solid;
+    border-right: .3em solid transparent;
+    border-bottom: 0;
+    border-left: .3em solid transparent;
+    margin-right: 10px;
+}
+
+.dropdown-toggle::after {
+    display: none;     
+}
+
+.burger {
+    color:fff;
+}
+
+.nofondo {
+    background: transparent!important;
+    font-size: 15px;
+}
+
+.frente {
+    height: 100%!important;
+}
+
+ul.navbar-nav {
+    padding: .5rem 0;
+    margin: .125rem 0 0;
+}
+
+.navbar-nav .nav-link {
+    padding: .5rem 1.5rem;
+    font-size: 15px;
+}
+
+.navbar-brand {
+    z-index: 9999;
+}
+
+h4
+{
+    color: #fbbe03;
+    font-weight: 700;
+}
+
+h6 {
+    font-weight: 700;
+    line-height: 1.25;
+}
+
+.bg-dark {
+    background-color: #1d1d1d!important;
+}
+
+.secciones p.font-italic {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.btn-secondary {
+    background-color: #333333;
+    color: #999999;
+    border: 0;
+}
+
+.ojo {
+    padding: .55rem .75rem;
+    display: none;
+}
+
+.mascara:hover .escala {
+    transform: scale(1.02);
+    opacity: 70%
+}
+
+.mascara .escala {
+    transition: all ease-in .2s;
+}
+
+:focus {
+    outline: none;
+}
+
+h2 {
+    color: #fbbe03;
+    font-size: 28px;
+    margin-bottom: 0;
+}
+
+.fondoimg {
+    background-color: #212425;
+}
+
+.form-control {
+    background-color: #1d1d1d;
+    font-weight: bold;
+    font-size: 15px;
+    color: #999999;
+    border: none;
+    border-bottom: 1px #fff solid;
+    border-radius: 0;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    background-color: #1d1d1d !important;
+    border-color: #fbbe03;
+}
+
+.form-control-sm {
+    border-radius: 0;
+}
+
+.active {
+    color: #fbbe03;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active  {
+  transition: background-color 5000s;
+  -webkit-text-fill-color: #fff !important;
+    -webkit-box-shadow: 0 0 0 30px #1d1d1d inset;
+}
+
+.txt-quienes {
+    font-size: 14.5px;
+}
+
+h5 {
+    color: #fff;
+}
+
+
+.fondocontacto {
+    background-image: url("img/Background_contacto1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.humo {
+    background-image: url("img/humo1.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.adicciones {
+    background-image: url("img/portadas/Adicciones.png");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100% auto;
+}
+
+.ciberacoso {
+    background-image: url("img/portadas/Ciberacoso.png");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100% auto;
+}
+
+.esport {
+    background-image: url("img/portadas/E Sports.png");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100% auto;
+}
+
+.glosario {
+    background-image: url("img/portadas/Glosario.png");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100% auto;
+}
+
+.libros {
+    background-image: url("img/portadas/Libros.png");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100% auto;
+}
+
+.peliculas {
+    background-image: url("img/portadas/Peliculas.png");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100% auto;
+}
+
+.realidadvirtual {
+    background-image: url("img/portadas/Realidad virtual.png");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100% auto;
+}
+
+.redessociales {
+    background-image: url("img/portadas/Redes Sociales.png");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100% auto;
+}
+
+.teleterapia {
+    background-image: url("img/portadas/Teleterapia.png");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100% auto;
+}
+
+.videojuegos {
+    background-image: url("img/portadas/Video Juegos.png");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100% auto;
+}
+
+@media (min-width: 120px) and (max-width: 767px) { 
+    .transparencia {
+        background-color: #1d1d1d;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 550px) {
+    .adicciones, .ciberacoso, .esport, .glosario, .libros, .peliculas, .realidadvirtual, .redessociales, .teleterapia, .videojuegos {
+        background-size: 125% auto;
+    }
+}
+
+@media (min-width: 120px) and (max-width: 399px) {
+    .adicciones, .ciberacoso, .esport, .glosario, .libros, .peliculas, .realidadvirtual, .redessociales, .teleterapia, .videojuegos {
+        background-size: 200% auto;
+    }
+}
